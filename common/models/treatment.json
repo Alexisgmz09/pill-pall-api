@@ -1,0 +1,46 @@
+{
+  "name": "Treatment",
+  "plural": "treatments",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "medicine": {
+      "type": "TreatmentMedicine",
+      "required": true
+    },
+    "startTime": {
+      "type": "date",
+      "required": true
+    },
+    "compartment": {
+      "type": "number",
+      "required": true
+    },
+    "takes": {
+      "type": [
+        "date"
+      ],
+      "required": true
+    },
+    "duration": {
+      "type": "number",
+      "required": true
+    },
+    "deleted": {
+      "type": "number",
+      "required": true
+    },
+    "logs": {
+      "type": [
+        "TreatmentLog"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

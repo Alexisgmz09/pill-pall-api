@@ -36,5 +36,13 @@
   "PaymentInformation": {
     "dataSource": null,
     "public": true
+  },
+  "Treatment": {
+    "dataSource": null,
+    "public": true
+  },
+  "APIUser": {
+    "dataSource": null,
+    "public": true
   }
 }

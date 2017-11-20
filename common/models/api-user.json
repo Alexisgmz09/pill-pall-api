@@ -1,0 +1,41 @@
+{
+  "name": "APIUser",
+  "plural": "apiUsers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "contacts": {
+      "type": [
+        "string"
+      ]
+    },
+    "paymentInformation": {
+      "type": "PaymentInformation"
+    },
+    "treatments": {
+      "type": [
+        "Treatment"
+      ]
+    },
+    "logs": {
+      "type": [
+        "UserLog"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
