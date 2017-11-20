@@ -28,5 +28,9 @@
   "UserLog": {
     "dataSource": null,
     "public": true
+  },
+  "Payment": {
+    "dataSource": null,
+    "public": true
   }
 }
