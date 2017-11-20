@@ -12,5 +12,21 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "Medicine": {
+    "dataSource": null,
+    "public": true
+  },
+  "TreatmentMedicine": {
+    "dataSource": null,
+    "public": true
+  },
+  "TreatmentLog": {
+    "dataSource": null,
+    "public": true
+  },
+  "UserLog": {
+    "dataSource": null,
+    "public": true
   }
 }

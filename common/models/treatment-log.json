@@ -1,0 +1,23 @@
+{
+  "name": "TreatmentLog",
+  "plural": "treatmentLogs",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "time": {
+      "type": "string",
+      "required": true
+    },
+    "taken": {
+      "type": "boolean",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
