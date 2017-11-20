@@ -32,5 +32,9 @@
   "Payment": {
     "dataSource": null,
     "public": true
+  },
+  "PaymentInformation": {
+    "dataSource": null,
+    "public": true
   }
 }
